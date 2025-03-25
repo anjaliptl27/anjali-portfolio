@@ -1,25 +1,20 @@
-import Home from './components/Home.jsx'
-import Navbar from './components/Navbar.jsx'
+import { HashRouter as Router, Route, Routes } from "react-router-dom"; 
+import Home from './components/Home.jsx';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 
-import Footer from './components/Footer.jsx'
-import { Route, Routes } from "react-router-dom"
- 
- 
 function App() {
   return (
-   <>
+    <Router>
       <div className="App">
-        <Navbar/>
-      <Routes>
+        <Navbar />
+        <Routes>
           <Route path="/" element={<Home />} />
-
-
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
-    </>
- );
-  
+    </Router>
+  );
 }
- 
-export default App
+
+export default App;
