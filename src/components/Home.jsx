@@ -27,7 +27,6 @@ const Home = () => {
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
-  // Smooth scroll with offset
   const scrollToSection = (ref) => {
     const yOffset = -NAVBAR_HEIGHT;
     const y = ref.current.getBoundingClientRect().top + window.scrollY + yOffset;
