@@ -80,7 +80,7 @@ const Home = () => {
               { icon: <FaGithub size={28} />, link: "https://github.com/anjaliptl27", label: "GitHub" },
               { icon: <FaLinkedin size={28} />, link: "https://linkedin.com/in/anjali-arethiya", label: "LinkedIn" },
               { icon: <FaEnvelope size={28} />, link: "mailto:anjaliarethiya490@gmail.com", label: "Email" },
-              { icon: <FaDownload size={28} />, link: "https://drive.google.com/file/d/1ggFk3_WCslgAloObCon1xK68c8DWmWM5/view?usp=sharing", label: "Resume" },
+              { icon: <FaDownload size={28} />, link: "https://drive.google.com/file/d/1wXcuovMKEM1Qq1Sx57xnYiijq3phbPlp/view?usp=sharing", label: "Resume" },
             ].map((item, index) => (
               <div
                 key={index}
