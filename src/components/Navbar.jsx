@@ -14,7 +14,6 @@ const Navbar = () => {
     { name: "Contact", id: "contact" },
   ];
 
-  // Smooth scroll with navigation
   const handleScrollToSection = (id) => {
     navigate("/");
     if (id === "home") {
@@ -29,10 +28,9 @@ const Navbar = () => {
         }
       }, 100);
     }
-    setIsOpen(false); // Close the sidebar on mobile
+    setIsOpen(false); 
   };
 
-  // Reusable Link Component
   const NavLink = ({ link }) => (
     <button
       onClick={() => handleScrollToSection(link.id)}
@@ -50,7 +48,6 @@ const Navbar = () => {
           <FaBars size={28} />
         </button>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-4 mx-auto bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-700 px-6 py-2 rounded-full">
           {navLinks.map((link) => (
             <NavLink key={link.id} link={link} />
@@ -68,7 +65,6 @@ const Navbar = () => {
             transition={{ type: "tween", duration: 0.4 }}
             className="fixed top-0 left-0 w-2/3 h-full bg-gray bg-opacity-95 p-6 flex flex-col items-center space-y-6 md:hidden z-50 shadow-lg"
           >
-            {/* Close Icon */}
             <button
               onClick={() => setIsOpen(false)}
               className="absolute top-4 left-4 text-white"
@@ -76,7 +72,6 @@ const Navbar = () => {
               <FaTimes size={28} />
             </button>
 
-            {/* Mobile Links */}
             {navLinks.map((link) => (
               <button
                 key={link.id}
