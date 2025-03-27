@@ -27,7 +27,6 @@ const Home = () => {
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
-  // Smooth scroll with offset
   const scrollToSection = (ref) => {
     const yOffset = -NAVBAR_HEIGHT;
     const y = ref.current.getBoundingClientRect().top + window.scrollY + yOffset;
@@ -40,7 +39,7 @@ const Home = () => {
     >
 
 
-      {/* 🔥 Introduction Section */}
+      {/*  Introduction Section */}
       <motion.section
        
         ref={introRef}
@@ -81,7 +80,7 @@ const Home = () => {
               { icon: <FaGithub size={28} />, link: "https://github.com/anjaliptl27", label: "GitHub" },
               { icon: <FaLinkedin size={28} />, link: "https://linkedin.com/in/anjali-arethiya", label: "LinkedIn" },
               { icon: <FaEnvelope size={28} />, link: "mailto:anjaliarethiya490@gmail.com", label: "Email" },
-              { icon: <FaDownload size={28} />, link: "https://docs.google.com/document/d/13SFjGBXSGrliVvM7pAEo9RO5rOo8hvj-HZ7XeC19FR4/edit?usp=drive_link", label: "Resume" },
+              { icon: <FaDownload size={28} />, link: "https://drive.google.com/file/d/1ggFk3_WCslgAloObCon1xK68c8DWmWM5/view?usp=sharing", label: "Resume" },
             ].map((item, index) => (
               <div
                 key={index}
