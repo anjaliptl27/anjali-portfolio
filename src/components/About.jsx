@@ -62,7 +62,6 @@ const About = () => {
           cultures.
         </p>
 
-        {/* Buttons Section */}
         <motion.div
           className="pt-10 flex justify-center md:justify-start gap-6"
           initial={{ opacity: 0, y: 20 }}
