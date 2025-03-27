@@ -23,7 +23,7 @@ const About = () => {
       viewport={{ once: true }}
       className="relative flex flex-col md:flex-row items-center justify-between mt-24 md:mt-36 p-10 rounded-2xl pt-20 overflow-hidden"
     >
-      {/* Background Blurs */}
+
       <div className="absolute w-[300px] h-[250px] bg-[#84098f] bottom-[-80px] left-[-60px] blur-[90px] opacity-50 -z-10" />
       <div className="absolute w-[250px] h-[200px] bg-[#ff7b00] top-[-50px] right-[50px] blur-[100px] opacity-40 -z-10" />
       <div className="absolute w-[200px] h-[180px] bg-[#007bff] top-[50%] right-[-60px] blur-[80px] opacity-30 -z-10" />
@@ -62,7 +62,6 @@ const About = () => {
           cultures.
         </p>
 
-        {/* Buttons Section */}
         <motion.div
           className="pt-10 flex justify-center md:justify-start gap-6"
           initial={{ opacity: 0, y: 20 }}

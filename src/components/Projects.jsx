@@ -34,7 +34,7 @@ const Projects = () => {
             className="relative p-6 rounded-2xl shadow-lg bg-white/10 backdrop-blur-lg transition-transform transform hover:scale-105 overflow-hidden"
             whileHover={{ scale: 1.05 }}
           >
-            {/* Background Blur Effect */}
+
             <div className="absolute w-[250px] h-[200px] bg-[#84098f] bottom-[-50px] left-[-50px] blur-[100px] opacity-40 -z-10" />
             <div className="absolute w-[200px] h-[150px] bg-[#ff7b00] top-[-50px] right-[-30px] blur-[90px] opacity-35 -z-10" />
 

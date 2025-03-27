@@ -63,7 +63,7 @@ const Contact = () => {
           {error && <p className="mt-4 text-red-500">{error}</p>}
 
           <div className="relative mt-6 w-full max-w-[550px]">
-            {/* Background Blurs */}
+
             <div className="absolute w-[300px] h-[250px] bg-[#84098f] bottom-[-40px] left-[-60px] blur-[100px] opacity-50 -z-10"></div>
             <div className="absolute w-[250px] h-[220px] bg-[#ff7b00] top-[-30px] right-[30px] blur-[90px] opacity-40 -z-10"></div>
             <div className="absolute w-[200px] h-[180px] bg-[#007bff] top-[50%] left-[50px] blur-[80px] opacity-30 -z-10"></div>
