@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import amazonImg from "../assets/amazon.png";
 import asb from "../assets/asb.png";
+import artverse from '../assets/artverse.png';
 
 const projects = [
   {
@@ -14,6 +15,12 @@ const projects = [
     description: "An e-commerce platform built using HTML, CSS, and JavaScript.",
     image: asb,
     link: "https://github.com/anjaliptl27/supermarket-frontend-website",
+  },
+  {
+  name: "ArtVerse Digital Art Platform",
+  description: "A full-stack marketplace and learning platform for digital artists, built with React, TypeScript, Node.js, and MongoDB.",
+  image: artverse,
+  link: "http://art-verse-zeta.vercel.app"
   },
 ];
 

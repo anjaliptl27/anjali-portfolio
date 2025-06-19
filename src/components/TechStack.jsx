@@ -1,8 +1,10 @@
 import { 
   FaReact, FaHtml5, FaCss3Alt, FaNodeJs, 
-  FaDatabase, FaFigma, FaGithub, FaLeaf, 
+  FaDatabase, FaGithub, FaLeaf, 
   FaJava, FaPython 
 } from "react-icons/fa";
+
+import { SiTypescript, SiExpress } from "react-icons/si";
 
 const TechStack = () => {
   return (
@@ -20,7 +22,9 @@ const TechStack = () => {
           { Icon: FaLeaf, label: "MongoDB", color: "#4DB33D" },      
           { Icon: FaJava, label: "Java", color: "#ED8B00" },         
           { Icon: FaPython, label: "Python", color: "#3776AB" },
-          { Icon: FaGithub, label: "Github", color: "#3776AB" }
+          { Icon: FaGithub, label: "Github", color: "#3776AB" },
+          { Icon: SiExpress, label: "Express.js", color: "#ffffff" },
+          { Icon: SiTypescript, label: "TypeScript", color: "#3178C6" },
 
         ].map(({ Icon, label, color }, index) => (
           <div
