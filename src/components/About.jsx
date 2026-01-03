@@ -75,14 +75,6 @@ const About = () => {
           >
             My Tech Stack
           </button>
-          <a
-            href="https://docs.google.com/document/d/13SFjGBXSGrliVvM7pAEo9RO5rOo8hvj-HZ7XeC19FR4/edit?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-orange-500 text-white py-2 px-6 rounded-md hover:bg-orange-600 transition text-center"
-          >
-            My Resume
-          </a>
         </motion.div>
       </motion.div>
     </motion.section>
